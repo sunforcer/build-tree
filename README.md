@@ -4,8 +4,8 @@ The test tasks with an interesting algorithm by creation tree structure
 
 Write a function that builds a tree using a list of id pairs (parent id, descendant id), where None is the id of the root node.
 
-Work example:
-
+Input data:
+```
 source = [
     (None, 'a'),
     (None, 'b'),
@@ -28,3 +28,4 @@ expected = {
 }
 
 assert to_tree(source) == expected
+```
