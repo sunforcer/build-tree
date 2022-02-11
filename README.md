@@ -1,4 +1,4 @@
-# -build-tree
+# build-tree
 
 The test tasks with an interesting algorithm by creation tree structure
 
